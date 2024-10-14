@@ -1,0 +1,9 @@
+{
+  "name": "aadhar-scanner",
+  "integrations": {
+    "capacitor": {
+      
+    }
+  },
+  "type": "react-vite"
+}

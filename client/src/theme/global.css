@@ -1,0 +1,20 @@
+table {
+    min-width           : 100%;
+    background-color: #ddd;
+}
+
+table th {
+    background-color: gray;
+    color           : white;
+    text-transform  : capitalize;
+    text-align      : start;
+    padding: 5px;
+}
+table td {
+    padding: 2px 5px;
+}
+
+table :is(th, td) {
+    border          : 2px solid white;
+    text-wrap: nowrap;
+}
